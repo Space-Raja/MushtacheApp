@@ -1,0 +1,29 @@
+@keyframes colorchange{
+    0%{box-shadow:5px 5px 50px red;}
+    10%{box-shadow:5px 5px 50px orange;}
+    20%{box-shadow:5px 5px 50px yellow;}
+    30%{box-shadow:5px 5px 50px yellowgreen;}
+    40%{box-shadow:5px 5px 50px green;}
+    50%{box-shadow:5px 5px 50px rgb(70, 74, 202);}
+    60%{box-shadow:5px 5px 50px green;}
+    70%{box-shadow:5px 5px 50px yellowgreen;}
+    80%{box-shadow:5px 5px 50px yellow;}
+    90%{box-shadow:5px 5px 50px orange;}
+    100%{box-shadow:5px 5px 50px red;}
+}
+
+
+canvas{
+    animation-name:colorchange;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+border-radius:10px;
+border-color:darkturquoise;
+border-width:5px;
+border-style:groove;
+}
+
+#button:hover{
+background-color:green;
+color:aqua;
+}
